@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+  width: 100%;
+  text-align: center;
+}
+#dhr{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.dhruv{
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    color: aqua;
+    display: flex;
+    text-align: center;
+}
+ul{
+    display: flex;
+    /* align-items: center; */
+    height: 10vh;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+ 
+  display: flex;
+  justify-content: center;
+
+  color: brown;
+  border: 3px solid darkslategray;
+  font-weight: 1000;
+  background-color: aqua;
+}
+#header-img{
+    width: 130px;
+}
+hr{
+    margin: 0 2rem;
+    color:aqua;
+}
+#body-img{
+width: 100vw;
+}
+
+#img{
+   
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(https://t4.ftcdn.net/jpg/04/42/21/53/240_F_442215355_AjiR6ogucq3vPzjFAAEfwbPXYGqYVAap.jpg);
+   
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    background-color: burlywood;
+    width: 270px;
+    overflow: hidden;
+    border: 4px solid red;
+    border-radius: 15px;
+
+}
+.container .card .product-image{
+    width: 270px;
+
+}
+.container .card .product-image img{
+    width: 100%;
+
+}
+button{
+    color: unset;
+background-color: red;
+width: 60%;
+font-weight: 1000;
+}
+
+footer{
+    background-color: black;
+height: 116px;
+display: grid;
+justify-content: space-around;
+}
+ul.abc{
+    height: 10px;
+    width: 150px;
+}
+.container1{
+    width: 100%;
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+align-items: center;
+justify-content: space-evenly;
+/* background-image: url(https://t4.ftcdn.net/jpg/04/42/21/53/240_F_442215355_AjiR6ogucq3vPzjFAAEfwbPXYGqYVAap.jpg); */
+position: relative;
+background-image: url(https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2FtaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+   
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    background-color: burlywood;
+    width: 270px;
+    overflow: hidden;
+    border: 4px solid red;
+    border-radius: 15px;
+
+}
+.container1 .card .product-image{
+    width: 270px;
+
+}
+.container1 .card .product-image img{
+    width: 100%;
+
+}
+
+.video 
+{
+    width: 488px;
+height: 275px;
+}
+@media screen (max-width:700px) {
+
+    header{
+
+        display:flex;
+        
+    }
+    }
+
+    
